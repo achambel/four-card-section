@@ -160,10 +160,11 @@ section {
   background: var(--clr-white);
   border-radius: 0.5rem;
   margin: 1rem;
+  max-width: 20rem;
 
   position: relative;
 
-  box-shadow: 0 3px 3px 0 hsl(234, 12%, 34%, 0.6);
+  box-shadow: 0 5px 20px 5px hsl(234, 12%, 34%, 0.2);
 }
 
 .card__supervisor::before {
